@@ -1,1 +1,22 @@
 @import "tailwindcss";
+@theme {
+  --font-heading: palatino-linotype, sans-serif;
+  --font-body: open-sans, sans-serif;
+  --color-text-color: #282828;
+  --color-highlight-color: #a3aa83;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+p,
+span,
+li,
+a {
+  font-family: var(--font-body);
+}
