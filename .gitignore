@@ -30,3 +30,6 @@ Temporary Items
 ### macOS Patch ###
 # iCloud generated files
 *.icloud
+
+### node_modules folder for cross device working ###
+node_modules/
