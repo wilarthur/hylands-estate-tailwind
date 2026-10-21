@@ -16,7 +16,7 @@
         <div class="h-full container max-w-6xl mx-auto px-10 py-8 flex justify-between items-center">
             <a class="h-full" href="/"><img class="h-full object-contain" src="/img/hylands-web-logo.png" alt=""></a>
             <nav>
-                <ul class="flex text-lg">
+                <ul class="text-lg hidden lg:flex">
                     <li class="pl-5"><a
                             class="text-hylands-text-grey hover:text-hylands-green transition-all ease-in-out duration-300"
                             href="/">Explore</a></li>
@@ -34,6 +34,29 @@
                             href="/"><i class="bi bi-search"></i></a>
                     </li>
                 </ul>
+                <ul class="text-lg flex lg:hidden z-50">
+                    <li class="pl-5"><a
+                            class="text-hylands-text-grey hover:text-hylands-green transition-all ease-in-out duration-300"
+                            href="/"><i class="bi bi-search"></i></a>
+                    </li>
+                    <li class="pl-5"><a
+                            class="text-hylands-text-grey hover:text-hylands-green transition-all ease-in-out duration-300 text-2xl"
+                            href="/"><i class="bi bi-list"></i></a>
+                    </li>
+                </ul>
+                <div class="bg-white-500 absolute flex flex-col right-0 top-0 pt-32 z-10 w-[350px] text-sm">
+                    <a class="px-5 py-3 hover:bg-hylands-background-hover hover:text-hylands-green w-full text-lg border-b-[1px] border-[#e1e1e1]"
+                        href="">Explore</a>
+                    <a class="p-3 px-8 hover:bg-hylands-background-hover hover:text-hylands-green w-full border-b-[1px] border-[#e1e1e1]"
+                        href="">-
+                        Sublink text</a>
+                    <a class="p-3 px-8 hover:bg-hylands-background-hover hover:text-hylands-green w-full border-b-[1px] border-[#e1e1e1]"
+                        href="">-
+                        Sublink text</a>
+                    <a class="p-3 px-8 hover:bg-hylands-background-hover hover:text-hylands-green w-full border-b-[1px] border-[#e1e1e1]"
+                        href="">-
+                        Sublink text</a>
+                </div>
             </nav>
         </div>
     </header>
