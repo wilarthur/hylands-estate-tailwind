@@ -99,6 +99,16 @@ blockquote {
   margin-left: 0;
 }
 
+.rich-text a {
+  color: var(--color-hylands-green);
+  text-decoration: underline;
+}
+
+.rich-text a:hover {
+  color: var(--color-hylands-green);
+  text-decoration: none;
+}
+
 /* Hero swiper */
 .heroSwiper {
   width: 100%;
