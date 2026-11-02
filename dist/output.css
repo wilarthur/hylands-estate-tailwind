@@ -17,8 +17,6 @@
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
-    --text-xl: 1.25rem;
-    --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
     --tracking-wider: 0.05em;
@@ -256,6 +254,9 @@
   .h-32 {
     height: calc(var(--spacing) * 32);
   }
+  .h-\[500px\] {
+    height: 500px;
+  }
   .h-full {
     height: 100%;
   }
@@ -359,10 +360,13 @@
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
   }
+<<<<<<< HEAD
   .text-xl {
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
   }
+=======
+>>>>>>> e292e98 (Hero swiper complete)
   .tracking-wider {
     --tw-tracking: var(--tracking-wider);
     letter-spacing: var(--tracking-wider);
@@ -421,10 +425,41 @@ h1, h2, h3, h4, h5, h6 {
 p, span, li, a {
   font-family: var(--font-body);
 }
+<<<<<<< HEAD
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
   initial-value: solid;
+=======
+.heroSwiper {
+  width: 100%;
+  height: 100%;
+}
+.heroSwiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroSwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.heroSwiper .swiper-pagination-bullet {
+  background-color: transparent !important;
+  border: 2px solid white;
+  opacity: 1;
+  width: 15px;
+  height: 15px;
+}
+.heroSwiper .swiper-pagination-bullet-active {
+  background-color: #fff !important;
+  border: 2px solid white;
+>>>>>>> e292e98 (Hero swiper complete)
 }
 @property --tw-tracking {
   syntax: "*";
