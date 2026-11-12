@@ -259,6 +259,9 @@
   .mr-5 {
     margin-right: calc(var(--spacing) * 5);
   }
+  .mr-10 {
+    margin-right: calc(var(--spacing) * 10);
+  }
   .\!mb-0 {
     margin-bottom: 0px !important;
   }
@@ -325,11 +328,20 @@
   .w-full {
     width: 100%;
   }
+  .max-w-1 {
+    max-width: var(--spacing);
+  }
   .max-w-2xl {
     max-width: var(--container-2xl);
   }
   .max-w-6xl {
     max-width: var(--container-6xl);
+  }
+  .max-w-10 {
+    max-width: calc(var(--spacing) * 10);
+  }
+  .max-w-20 {
+    max-width: calc(var(--spacing) * 20);
   }
   .max-w-60 {
     max-width: calc(var(--spacing) * 60);
